@@ -137,6 +137,27 @@ img {
     gap: 32px;
 }
 
+@media only screen and (min-width: 768px) {
+    .welcome-tablet-container {
+        display: flex;
+        gap: 32px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .welcome-heading-container {
+        width: 336px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .welcome-heading-container {
+        width: 640px;
+    }
+}
+
 .welcome-first-p {
     font-weight: 600;
     font-size: 16px;
@@ -152,6 +173,24 @@ img {
         sans-serif;
 }
 
+@media only screen and (min-width: 1440px) {
+    .welcome-heading {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .welcome-txt-btn-container {
+        width: 336px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .welcome-txt-btn-container {
+        width: 640px;
+    }
+}
+
 .welcome-second-p {
     font-size: 18px;
     margin-bottom: 32px;
@@ -165,6 +204,12 @@ img {
     height: 44px;
     box-shadow: 0 1px 2px 0 var(--opacity-neutral-darkest-5), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--opacity-neutral-darkest-15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 var(--opacity-white-5);
     background: var(--color-coffee-dark);
+}
+
+@media only screen and (min-width: 768px) {
+    .welcome-btn-box {
+        width: 181px;
+    }
 }
 
 .welcome-btn {
@@ -189,6 +234,21 @@ img {
     width: 288px;
     height: 162px;
 }
+
+@media only screen and (min-width: 768px) {
+    .welcom-img {
+        width: 704px;
+        height: 396px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .welcom-img {
+        width: 1312px;
+        height: 738px;
+    }
+}
+
 
 html {
     scroll-behavior: smooth;
